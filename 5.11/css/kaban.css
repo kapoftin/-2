@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto';    
+}
+
+.hhh{
+  text-decoration: none;
+  color: white;
+}
+
+header{
+    background-color: #202328;    
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+.verh{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+}
+.foto{
+  margin-top: 10px;
+  background-image: url(../img/slider-img.svg);
+  width: 1260px;
+  height: 630px;
+  background-position: center;
+}
+
+.verh2{
+  margin-top: 40px;
+  display: none;
+  justify-content: center;
+  gap: 50px;
+  color: white;
+  flex-wrap: wrap;
+}
+.wood{
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  padding-right: 500px;
+}
+.trust{
+  background-color: #171A1A;
+  display: flex;
+  justify-content: center;  
+}
+.trust1{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #6F7A8B;
+  margin-right: 80px;
+}
+.trust2{
+  margin-top: 30px;
+  max-width: 350px;
+  text-align: right;
+}
+.trusted{
+  max-width: 230px;  
+  margin-right: 40px;
+}
+.cvet{
+  margin-bottom: 10px;
+}
+.tel1{
+  color: #6F7A8B;
+}
+.tel2{  
+font-size: 28px;
+font-weight: 300;
+line-height: 46px;
+letter-spacing: 0em;
+color: white;
+}
+
+.tel3 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #F88500  inset, 0 0 0 0 #F88500  ;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+  margin-bottom: 50px;
+}
+.tel3:hover {
+  box-shadow: 0 0 10px 0 #F88500  inset, 0 0 10px 4px #F88500  ;
+  color: #F88500  ;
+}
+.more{
+  background-color: #202328;
+  display: flex;
+  justify-content: center;
+}
+.smalltxt{
+  color: white;
+  margin-right: 70px;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: right;
+max-width: 420px;
+}
+strong{
+  color: #F88500;
+  font-size: 20px;
+}
+.bigtxt{
+  color: white;
+  font-size: 29px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;  
+  max-width: 420px;
+}
+
+.texta{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  margin-bottom: 160px;
+}
+.imgaes{
+  background-color: #FAFAFA;
+}
+.imgs{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.img1{
+  margin-bottom: 40px;
+}
+.otdelnoe{
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+}
+.krovat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+
+}
+.cvetnoi{
+  margin-bottom: 15px;
+}
+.footed{
+  max-width: 620px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #FFFFFFB2  ;
+  
+}
+.top{
+  display: flex;
+  justify-content: end;
+}
+.wod2{
+  max-width: 360px;
+}
+.foot{
+  background-color: #171A1A  ;
+}
+.footed2{
+  max-width: 420px;
+}
+.wod{
+  margin-top: 50px;
+font-size: 18px;
+font-weight: 900;
+line-height: 21px;
+letter-spacing: 0em;
+color: white;
+
+}
+
+
+.bg{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.back{
+  margin-top: 10px;
+  background-image: url(../img/bg.svg);
+  width: 1280px;
+  height: 383px;
+}
+
+.nsh{
+  margin-top: 70px;
+font-size: 29px;
+font-weight: 800;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-top: 70px;
+margin-bottom: 50px;
+}
+.imgss{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.razm{
+  width: 256px;
+  height: 161px;
+}
+@media(max-width: 1025px){
+  .imgss{
+    display: none;
+  }
+}
+@media(max-width: 915px){
+  .imgss{
+    display: none;
+  }
+  .trust{
+    background-color: #171A1A;
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+  }
+  .trust1{
+    flex-wrap: wrap;
+    margin-right: 0px;
+  }
+  .verh{
+    display: none;
+  }
+  .verh2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    flex-wrap: wrap;
+  }
+  .wood{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    padding-right: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto';    text-decoration: none;
+}
+
+
+.pr{
+font-size: 24px;
+font-weight: 900;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 50px;
+}
+.our{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pr2{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 20px;
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+margin-bottom: 50px;
+}
+.fotki{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.f1{    gap: 20px;
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    background-color: #ffffff;    
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 0px 35px rgba(0, 0, 0, 0.116);
+}
+.gl33{
+  margin-right: -70px;
+}
+.ggs{
+    display: none;
+}
+.verh{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #333333;
+}
+.foto{
+  margin-top: 10px;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 915px){
+    .ggs{
+        display: flex;
+    }
+    .imgss{
+      display: none;
+    }
+    .trust{
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;  
+      flex-wrap: wrap;
+    }
+    .trust1{
+      flex-wrap: wrap;
+      margin-right: 0px;
+    }
+    .verh{
+      display: none;
+    }
+    .verh2{
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      color: white;
+      flex-wrap: wrap;
+    }
+    .wood{
+      display: flex;
+      justify-content: center;
+      margin-top: 110px;
+      padding-right: 0px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  
+  }
+  .cvetnoi{
+    margin-bottom: 15px;
+  }
+  .footed{
+    max-width: 620px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FFFFFFB2  ;
+    
+  }
+  .top{
+    display: flex;
+    justify-content: end;
+  }
+  .wod2{
+    max-width: 360px;
+  }
+  .foot{
+    background-color: #171A1A  ;
+  }
+  .footed2{
+    max-width: 420px;
+  }
+  .wod{
+    margin-top: 50px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: white;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Указываем box sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Убираем внутренние отступы */
+  ul[class],
+  ol[class] {
+    padding: 0;
+  }
+  
+  /* Убираем внешние отступы */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul[class],
+  ol[class],
+  li,
+  figure,
+  figcaption,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  /* Выставляем основные настройки по-умолчанию для body */
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
+  
+  /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+  ul[class],
+  ol[class] {
+    list-style: none;
+  }
+  
+  /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Упрощаем работу с изображениями */
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* Указываем понятную периодичность в потоке данных у article*/
+  article > * + * {
+    margin-top: 1em;
+  }
+  
+  /* Наследуем шрифты для инпутов и кнопок */
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+  
+  /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
